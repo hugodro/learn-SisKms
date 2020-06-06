@@ -1,0 +1,59 @@
+.entry {
+ padding: 5px 10px 5px 0px;
+}
+
+.entryImg {
+ width: 192px;
+ border-radius: 5px;
+}
+
+.entryCol {
+  padding: 5px 0px 5px 0px;
+}
+
+
+.base {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: rgb(0, 121, 191);
+  padding: 5px;
+}
+
+.header {
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.header .left-aligned {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 5px;
+  justify-self: flex-start;
+}
+
+.header .right-aligned {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 5px;
+  justify-self: flex-start;
+}
+
+.header .left-aligned div, .logo, .header .right-aligned div {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.header .logo {
+  background-color: rgba(255, 255, 255, 0.3);
+  justify-self: center;
+}
+
+.header .right-aligned {
+  justify-self: flex-end;
+}
+
+.rounded {
+  border-radius: 50%;
+}
