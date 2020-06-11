@@ -15,20 +15,13 @@ create table simpleasset (
 insert into categories (label) values ('english'), ('ipc'), ('math'), ('phonics'), ('pe');
 
 -- Adding data for Monday June 8th 2020.
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Mon' as label, 'mathMon_200608' as locator, '2020-06-08 00:00:00' as doneOn from categories where label='math');
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Mon' as label, 'englishMon_200608' as locator, '2020-06-08 00:00:00' as doneOn from categories where label='english');
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Mon' as label, 'phsehMon_200608' as locator, '2020-06-08 00:00:00' as doneOn from categories where label='phonics');
-
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Tue' as label, 'englishTue_200609' as locator, '2020-06-09 00:00:00' as doneOn from categories where label='english');
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Tue' as label, 'mathTue_200609' as locator, '2020-06-09 00:00:00' as doneOn from categories where label='math');
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Tue' as label, 'ipcTue_200609' as locator, '2020-06-09 00:00:00' as doneOn from categories where label='ipc');
-insert into simpleasset (categfk, label, locator, doneOn)
-    (select id as categfk, 'Tue' as label, 'phseTue_200609' as locator, '2020-06-09 00:00:00' as doneOn from categories where label='phonics');
+-- insert into simpleasset (categfk, label, locator, doneOn)
+--     (select id as categfk, 'Wed' as label, 'englishWed_200610' as locator, '2020-06-10 00:00:00' as doneOn from categories where label='english');
+-- insert into simpleasset (categfk, label, locator, doneOn)
+--     (select id as categfk, 'Wed' as label, 'mathWed_200610' as locator, '2020-06-10 00:00:00' as doneOn from categories where label='math');
+-- insert into simpleasset (categfk, label, locator, doneOn)
+--     (select id as categfk, 'Wed' as label, 'ipcWed_200610' as locator, '2020-06-10 00:00:00' as doneOn from categories where label='ipc');
+-- insert into simpleasset (categfk, label, locator, doneOn)
+--     (select id as categfk, 'Wed' as label, 'phseWed_200610' as locator, '2020-06-10 00:00:00' as doneOn from categories where label='phonics');
 
 
